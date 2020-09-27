@@ -3,12 +3,13 @@
 ### Introduction
 
 This project allows users to play TicTacToe against an AI which uses minimax algorithm to determine the next move. It is entirely made in Java.
-
+| Image1 | Image2 | Image3 |
+| --- | --- | --- |
 |![Image1](images/img1.PNG) | ![Image2](images/img2.PNG) |![Image3](images/img3.PNG)|
 
 ### Minimax Algorithm
-`
-public int minimax(int board[][],int depth,boolean max_step){
+
+`public int minimax(int board[][],int depth,boolean max_step){
         int result=this.end_game();
         //If the game is already ended the score is the result.
         if(result!=2){
@@ -47,11 +48,8 @@ public int minimax(int board[][],int depth,boolean max_step){
             return bestScore;
         }
     }
-`  
-`
     public void minimax_choice(){
         int bestScore=-1000;
-        
         int[][] board=new int[3][3];
         board=this.gameboard;
         Position bestChoice=new Position(0,0);
