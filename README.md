@@ -8,5 +8,8 @@ This project allows users to play TicTacToe against an AI which uses minimax alg
 
 ### Execution 
 
+You can execute it directly by opening the TicTacToe.jar file or from the command line typing:
+** java -jar "TicTacToe.jar" 
+
 
 
