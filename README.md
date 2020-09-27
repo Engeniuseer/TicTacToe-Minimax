@@ -3,7 +3,7 @@
 ### Introduction
 
 This project allows users to play TicTacToe against an AI which uses minimax algorithm to determine the next move. It is entirely made in Java.
-| Image1 | Image2 | Image3 |
+| Game Result 1 | Game Result 1 | Game Result 1 |
 | --- | --- | --- |
 |![Image1](images/img1.PNG) | ![Image2](images/img2.PNG) |![Image3](images/img3.PNG)|
 
